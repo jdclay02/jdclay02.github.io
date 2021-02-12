@@ -68,6 +68,7 @@ tr:nth-child(even){
 }
 td.catagory{
   width:100px;
+  font-weight: bold;
 }
 td.crew{
   width: 20%;
