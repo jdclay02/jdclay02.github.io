@@ -30,6 +30,7 @@ table{
 table.stor{
   width: 100%;
   font-size: 16px;
+  text-align: center;
 }
 table, th, td {
   border-collapse: collapse;
@@ -64,6 +65,10 @@ tr:nth-child(even){
 }
 td.catagory{
   width:100px;
+}
+td.crew{
+  width: 20%;
+  text-align: center;
 }
 ul.navbar {
 	list-style-type: none;
