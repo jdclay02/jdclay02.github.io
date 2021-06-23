@@ -63,7 +63,7 @@ li a.navi:hover {
   background-color: #111;
 }
 header{
-  
+
 }
 div.IndexMain{
   margin-top: 5%;
@@ -73,6 +73,9 @@ div.IndexMain{
   border: 1px solid black;
   opacity: 1;
   filter: alpha(opacity=100);
+}
+div.IndexSub{
+  padding: 2%;
 }
 footer{
   margin-left: 5%;
