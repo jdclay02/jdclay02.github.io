@@ -80,7 +80,6 @@ ul.navbar {
 li.nav {
   display: inline;
   float: left;
-  border-right: 1px solid #bbb;
 }
 li.nav:last-child {
   border-right: none;
@@ -94,6 +93,7 @@ li a.navi {
 }
 li a.navi:hover {
   background-color: #111;
+  color: lightgray;
 }
 li.stor{
   list-style-type: square;
@@ -109,6 +109,34 @@ div.IndexMain{
 }
 div.IndexSub{
   padding: 2%;
+}
+div.header_img{
+  float: left;
+  height: 64px;
+  width: 64px;
+  margin: 20px 20px 20px 10px;
+  max-width: 250px;
+}
+div.header_top{
+  display: flex;
+  height: 52px;
+  padding-bottom: 6px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: white;
+}
+div a.header_top{
+  color: white;
+  text-decoration: none;
+}
+div a.header_top:hover{
+  color: lightgray;
+  text-decoration: none;
+}
+div.header_nav{
+    display: flex;
+    height: 52px;
 }
 div.CharMain{
 	margin-top: 5%;
@@ -149,6 +177,16 @@ div.StorySide{
   margin-right: 20px;
 	float: none;
 }
+header.localHead{
+  background-color: #333;
+  color: white;
+}
+header h1{
+  color: white;
+}
+header h1 a{
+  color: white;
+}
 footer{
   margin-left: 5%;
   margin-right: 5%;
@@ -169,9 +207,6 @@ ul.footbar {
   bottom: 0;
   left: 0;
   width: 100%;
-}
-ul a{
-  font-weight: bold;
 }
 ul a{
   font-weight: bold;
