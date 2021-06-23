@@ -138,6 +138,7 @@ div.IndexBox{
   padding-right: 2%;
   padding-bottom: 2%;
   border: 1px solid snow;
+  height: auto;
 }
 div.header_img{
   float: left;
@@ -205,6 +206,32 @@ div.StorySide{
   margin-left: 10px;
   margin-right: 20px;
 	float: none;
+}
+div.galleryWrapper{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  display: block;
+}
+.clear{
+  clear: both;
+}
+div.gallery{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img{
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
 header.localHead{
   background-color: #333;
