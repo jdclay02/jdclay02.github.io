@@ -50,10 +50,11 @@ table, th, td {
   border-collapse: collapse;
 }
 th{
-  background-color: rgb(150,150,220);
+  background-color: #3a5472;
+  color: white;
 }
 th.name{
-  background-color: navy;
+  background-color: #3a5472;
   color: white;
   font-size: 1.2em;
 }
@@ -71,11 +72,8 @@ th.storAlt{
   padding: 5px;
   width: 25%;
 }
-tr:nth-child(odd){
-  background-color: rgb(220,220,220);
-}
-tr:nth-child(even){
-  background-color: rgb(240,240,240);
+tr{
+  background-color: #b5b3b1;
 }
 td.catagory{
   width:100px;
@@ -180,7 +178,6 @@ div.CharMain{
   filter: alpha(opacity=100);
 }
 div.CharSide{
-  background-color: snow;
   border: 1px solid black;
   opacity: 1;
   filter: alpha(opacity=100);
