@@ -27,19 +27,15 @@ th{
 }
 ul.navbar {
 	list-style-type: none;
+  margin: 0;
   padding: 0;
-	margin-top: 0px;
-	margin-bottom: 20px;
   overflow: hidden;
   background-color: #333;
-	position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+	/*position: fixed;*/
 }
 li.nav {
+  display: inline;
   float: left;
-	border-right: 1px solid #bbb;
 }
 li a.navi {
     display: block;
@@ -48,10 +44,21 @@ li a.navi {
     padding: 14px 16px;
     text-decoration: none;
 }
+li a.navi:hover {
+  background-color: #111;
+}
+header{
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: dimgray;
+  border: 1px solid black;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  float: top;
+}
 div.IndexMain{
-	margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
   background-color: snow;
   border: 1px solid black;
   padding-left: 10px;
@@ -59,8 +66,8 @@ div.IndexMain{
   filter: alpha(opacity=100);
 }
 footer{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
   background-color: snow;
   text-align: center;
   border: 1px solid black;
