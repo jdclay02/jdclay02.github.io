@@ -181,7 +181,8 @@ div.CharSide{
   border: 1px solid black;
   opacity: 1;
   filter: alpha(opacity=100);
-  width: 300px;
+  min-width: 300px;
+  max-width: 400px;
 	float: right;
 }
 div.StoryMain{
@@ -272,7 +273,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: purple;
+  color: blue;
   text-decoration: none;
 }
 
