@@ -1,0 +1,288 @@
+body{
+  background-color: dimgray;
+  margin: 0;
+  background-image: linear-gradient(90deg, white, black);
+  font-family: arial;
+  font-size: 1.0em;
+}
+h1{
+  color: black;
+}
+h3{
+  color: inherit;
+}
+p{
+  color: inherit;
+}
+img{
+  width: 100%;
+}
+table{
+  width: 100%;
+}
+table.stor{
+  width: 100%;
+  font-size: 1.2em;
+  text-align: center;
+}
+table.Index{
+  margin: auto;
+  text-align: center;
+  border: 5px solid #e1dcd9;
+  color: snow;
+}
+table.Index th{
+  background-color: #e1dcd9;
+  color: black;
+}
+table.Index td{
+  background-color: #3a5472;
+  width: 30%;
+  text-align: center;
+  vertical-align: center;
+  border-collapse: separate;
+  border: 5px solid #e1dcd9;
+}
+table.Index td a{
+  color: white;
+}
+table, th, td {
+  border-collapse: collapse;
+}
+th{
+  background-color: #3a5472;
+  color: white;
+}
+th.name{
+  background-color: #3a5472;
+  color: white;
+  font-size: 1.2em;
+}
+th.stor{
+  background-color: purple;
+  color: white;
+  font-size: 1.2em;
+  padding: 5px;
+  width: 25%;
+}
+th.storAlt{
+  background-color: purple;
+  color: white;
+  font-size: 1.2em;
+  padding: 5px;
+  width: 25%;
+}
+tr{
+  background-color: #b5b3b1;
+}
+td.catagory{
+  width:100px;
+  font-weight: bold;
+}
+ul.headNav{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+ul.navbar {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li.nav {
+  display: inline;
+  float: left;
+}
+li.nav:last-child {
+  border-right: none;
+}
+li a.navi {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a.navi:hover {
+  background-color: #111;
+  color: lightgray;
+}
+li.stor{
+  list-style-type: square;
+}
+div.IndexMain{
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #e1dcd9;
+  border: 1px solid black;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+div.IndexSub{
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+}
+div.IndexBox{
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  border: 1px solid snow;
+  height: auto;
+}
+div.header_img{
+  float: left;
+  height: 64px;
+  width: 64px;
+  margin: 20px 20px 20px 10px;
+  max-width: 250px;
+}
+div.header_top{
+  display: flex;
+  height: 52px;
+  padding-bottom: 6px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: white;
+}
+div a.header_top{
+  color: white;
+  text-decoration: none;
+}
+div a.header_top:hover{
+  color: lightgray;
+  text-decoration: none;
+}
+div.header_nav{
+    display: flex;
+    height: 52px;
+}
+div.CharMain{
+	margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #e1dcd9;
+  border: 1px solid black;
+  padding-top: 2%;
+  padding-left: 2%;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+div.CharSide{
+  border: 1px solid black;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  min-width: 300px;
+  max-width: 400px;
+	float: right;
+}
+div.StoryMain{
+	margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #e1dcd9;
+  border: 1px solid black;
+  padding-top: 2%;
+  padding-left: 2%;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+div.StorySide{
+  background-color: snow;
+  border: 1px solid black;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  margin-left: 10px;
+  margin-right: 20px;
+	float: none;
+}
+div.galleryWrapper{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  display: block;
+}
+.clear{
+  clear: both;
+}
+div.gallery{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img{
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+header.localHead{
+  background-color: #333;
+  color: white;
+}
+header h1{
+  color: white;
+}
+header h1 a{
+  color: white;
+}
+footer{
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #e1dcd9;
+  text-align: center;
+  border: 1px solid black;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  float: bottom;
+}
+ul.footbar {
+	list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+	position: fixed;
+  margin-bottom: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+ul a{
+  font-weight: bold;
+}
+/* unvisited link */
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: DodgerBlue;
+}
+
+/* selected link */
+a:active {
+  color: Plum;
+}
