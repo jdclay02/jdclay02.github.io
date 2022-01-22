@@ -74,6 +74,9 @@ th.storAlt{
 }
 tr{
   background-color: #b5b3b1;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
 }
 td.catagory{
   width:100px;
