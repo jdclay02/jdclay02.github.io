@@ -52,7 +52,24 @@
               <th colspan="3" class="name">Avery D. Samuel</th>
             </tr>
             <tr>
-              <td colspan="3"><img src="../media/Avery D. Samuel (Pre-Timeskip).jpg" alt=""></td>
+              <script> 
+                function changeImage(prePost)
+                {
+                var img = document.getElementById("heroPic");
+                if(prePost == 1){
+                  img.src="../media/Avery D. Samuel (Post-Timeskip).jpg";
+                }else{
+                  img.src="../media/Avery D. Samuel (Pre-Timeskip).jpg";
+                }
+                return false;
+                }
+              </script>
+              <td><button id="Pre-Timeskip" value="0" onclick="changeImage(this.value)">Pre-Timeskip</button></td>
+              <td></td>
+              <td><button id="Post-Timeskip" value="1" onclick="changeImage(this.value)">Post-Timeskip</button></td>
+            </tr>
+            <tr>
+              <td colspan="3"><img src="../media/Avery D. Samuel (Pre-Timeskip).jpg" alt="" id="heroPic"></td>
             </tr>
             <tr>
               <th colspan="3">Statistics</th>
@@ -67,7 +84,10 @@
             </tr>
             <tr>
               <td class="catagory">Affiliations:</td>
-              <td colspan="2"><a href="../World/Straw Hat Pirates.html">Straw Hat Pirates</a></td>
+              <td colspan="2">
+                <li><a href="../World/Straw Hat Pirates.html">Straw Hat Pirates</a></li>
+                <li>Revolutionary Army</li>
+              </td>
             </tr>
             <tr>
               <td class="catagory">Occupations:</td>
@@ -104,7 +124,10 @@
             </tr>
             <tr>
               <td class="catagory">Age:</td>
-              <td colspan="2">23</td>
+              <td colspan="2">
+                <li>25</li>
+                <li><s>23</s></li>
+              </td>
             </tr>
             <tr>
               <td class="catagory">Birthday:</td>
@@ -120,7 +143,13 @@
             </tr>
             <tr>
               <td class="catagory">Bounty:</td>
-              <td colspan="2">$125,000,000</td>
+              <td colspan="2">
+                <li>$475,000,000</li>
+                <li><s>$350,000,000</s></li>
+                <li><s>$250,000,000</s></li>
+                <li><s>$125,000,000</s></li>
+                <li><s>$25,000,000</s></li>
+              </td>
             </tr>
             <tr>
               <th colspan="3">Devil Fruit</th>
@@ -146,7 +175,7 @@
             </tr>
             <tr>
               <td class="catagory">Level:</td>
-              <td colspan="2">8</td>
+              <td colspan="2">17</td>
             </tr>
             <tr>
               <td class="catagory">HP</td>
@@ -154,9 +183,9 @@
               <td class="catagory">Int</td>
             </tr>
             <tr>
-              <td>50</td> <!--8+(level-1)*5+Level*ConMod-->
-              <td>08</td>
-              <td>14</td>
+              <td>139</td> <!--8+(level-1)*5+Level*ConMod-->
+              <td>12</td>
+              <td>18</td>
             </tr>
             <tr>
               <td class="catagory">AC</td>
@@ -165,8 +194,8 @@
             </tr>
             <tr>
               <td>14</td>
-              <td>18</td>
-              <td>14</td>
+              <td>24</td>
+              <td>20</td>
             </tr>
             <tr>
               <td class="catagory">DC</td>
@@ -175,8 +204,8 @@
             </tr>
             <tr>
               <td>13</td>
-              <td>12</td>
-              <td>12</td>
+              <td>16</td>
+              <td>18</td>
             </tr>
           </table>
         </div>
@@ -285,12 +314,24 @@
           <li>Thieves' Cant</li>
           <li>Cunning Action</li>
           <li>Steady Aim</li>
-          <li>Fancy Footwork</li>
-          <li>Rakish Audacity</li>
+          <li>Archetype: Swashbuckler</li>
+          <ul>
+            <li>Fancy Footwork</li>
+            <li>Rakish Audacity</li>
+            <li>Panache</li>
+            <li>Elegant Maneuver</li>
+            <li>Master Duelist</li>
+          </ul>
           <li>Ability Score Increase: Con +2</li>
           <li>Uncanny Dodge</li>
           <li>Evasion</li>
           <li>Ability Score Increase: Dex +2</li>
+          <li>ASI: Dex +2</li>
+          <li>Reliable Talent</li>
+          <li>ASI: Cha +2</li>
+          <li>Power of Observation</li>
+          <li>Slippery Mind</li>
+          <li>ASI: Wis +2</li>
         </ul>
         <h4 id="Feats">Feats</h4>
         <ul>
@@ -310,25 +351,30 @@
           <ul>
             <li>Arms of Hadar (1), Spike Growth (2), Wither and Bloom (2), Speak with Plants (3), Vampiric Touch (3), Blight (4) Grasping Vine (4), Guardian of Nature (4), Awaken (5), Horrid Wilting (8)</li>
           </ul>
+          <li>Awakening</li>
         </ul>
         <h4 id="Haki">Haki</h4>
         <ul>
-          <li>Armament Haki</li>
+          <li>Armament Haki (DC: 17 / Mod: +9)</li>
           <ul>
             <li>Uncommon (All)</li>
             <li>Rare (All)</li>
+            <li>Very Rare (All)</li>
+            <li>Legendary (All)</li>
           </ul>
-          <li>Observation Haki (DC: 12 / Mod +4)</li>
+          <li>Observation Haki (DC: 19 / Mod +11)</li>
           <ul>
             <li>Uncommon (All)</li>
             <li>Rare (All)</li>
-            <li>Glimpse Into the Future</li>
+            <li>Very Rare (All)</li>
+            <li>Legendary (All)</li>
           </ul>
-          <li>Conqueror's Haki (DC: 11 / Mod: +3)</li>
+          <li>Conqueror's Haki (DC: 18 / Mod: +10)</li>
           <ul>
             <li>Uncommon (All)</li>
             <li>Rare (All)</li>
-            <li>Observation Killer</li>
+            <li>Very Rare (All)</li>
+            <li>Legendary (All)</li>
           </ul>
         </ul>
         <h2 id="Quotations">Quotations</h2>
